@@ -1,3 +1,5 @@
+Creators: Chirag Kikkeri, Siddharth Sharma, Tyler Gall 
+
 To run our program, first pull the repository. Then, type in “make” in the command line. Once the files compile, type ./main to run main, which includes the tests. For our algorithms, we have initialized two graphs. One is a sample graph (fg_small) that contains 6 airports and 10 routes. A visualization of this sample graph is in Sample Flights Map.PNG. Our second graph is the large graph (fg_large), that contains thousands of airports and flights, read in from the OpenFlights database. 
 
 We have four tests for Dijkstra’s Algorithm, two using the small graph, and two using the large graph. After running main, each test will save a vector of vertices representing the path, or an empty vector if there is no path. The printPath() method takes this and prints it. For the second and fourth test case, there is no path, so printPath() prints out “No path exists”. 
